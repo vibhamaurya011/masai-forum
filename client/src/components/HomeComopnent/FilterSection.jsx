@@ -7,7 +7,7 @@ import Icon5 from '../../assets/Icon 5.png'
 
 function FilterSection() {
   return (
-    <div className='w-1/4 p-4 bg-gray-500 rounded-lg'>
+    <div className='w-1/4 h-fit p-4 bg-gray-500 rounded-lg'>
         <h1 className='font-bold text-lg text-white'>Filter Posts</h1>
         <div className='flex flex-col gap-2 my-4'>
           <div className='flex gap-2 hover:bg-gray-400 rounded-md cursor-pointer'>

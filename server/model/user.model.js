@@ -24,7 +24,6 @@ const userSchema = mongoose.Schema({
   },
   avatar: {
     type: String,
-    validate: /^https?:\/\//,
   },
   created_at: {
     type: Date,

@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import Feeds from './pages/Feeds';
 import FeedsDetails from './pages/FeedsDetails';
 import { Route, Routes } from 'react-router-dom';
+import Auth from './pages/Auth';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Feeds/>}/>
         <Route path="/feeds" element={<Feeds/>}/>
+        <Route path="/auth" element={<Auth/>}/>
         <Route path="/feeds/:id" element={<FeedsDetails/>}/>
       </Routes>
       <Footer/>
